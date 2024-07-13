@@ -1,0 +1,68 @@
+.counter {
+	border: 3px solid rgb(131, 225, 249);
+		width: 500px;
+		height: 400px;
+		margin: 100px auto;
+		border-radius: 8px;
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+}
+
+.board {
+	width: 100%;
+	padding: 20px 0 ;
+	background-color:rgb(131, 225, 249);
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.number {
+	font-size: 70px;
+	font-weight: 700;
+}
+
+.maxNumber {
+	color: red;
+}
+
+.buttons {
+	margin-top: 20px;
+	display: flex;
+	gap: 20px;
+}
+
+button {
+	width: 100px;
+	background-color: rgb(131, 225, 249);
+	font-size: 30px;
+	border: none;
+	border-radius: 8px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+button.disabled {
+	opacity: 0.8;
+	cursor: default;
+}
+
+.progress {
+	margin-bottom: 20px;
+	height:8px;
+	border: 2px solid lightblue;
+	width: 100%;
+	border-radius: 6px;
+}
+
+.progressBar {
+	border-radius: 6px;
+	height: 100%;
+	
+	background-color: greenyellow;
+}
+
